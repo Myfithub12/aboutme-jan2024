@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Hollrah</title>
+</head>
+<body>
+    <header>
+        <h1>Mark Hollrah</h1>
+    </header>
+    <main>
+        <p>Well intentioned weirdo.</p>
+        <button onclick="showFavorites()">Show Favorites</button>
+    </main>
+
+    <script>
+        function showFavorites() {
+            const favorites = [
+                "Sports Card Collecting",
+                "Reading",
+                "Watching TV",
+                "Playing Video Games"
+            ];
+            alert("My favorite things are: \n" + favorites.join("\n"));
+        }
+    </script>
+</body>
+</html>
